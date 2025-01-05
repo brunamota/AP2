@@ -10,19 +10,17 @@
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 03 - Comparação entre estruturas homogêneas e heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula03.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 04 - Revisão e discussão de problemas comuns com estruturas heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula04.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 04 - Análise de Estruturas como structs e classes](https://github.com/brunamota/AP2/blob/main/Aulas/Aula04.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 05 - Análise de Estruturas como structs e classes](https://github.com/brunamota/AP2/blob/main/Aulas/Aula05.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 05 - Introdução à Programação Modular e Importância](https://github.com/brunamota/AP2/blob/main/Aulas/Aula05.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 06 - Introdução à Programação Modular e Importância](https://github.com/brunamota/AP2/blob/main/Aulas/Aula06.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 06 - Criação de Funções e Procedimentos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula06.md)
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 07 - Criação de Funções e Procedimentos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula07.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 09 - Funções Recursivas: Conceitos e Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula09.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 08 - Funções Recursivas: Conceitos e Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula08.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 10 - Funções Recursivas: Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula10.md)
-
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 11 - Revisão de funções e procedimentos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula11.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 09 - Funções Recursivas: Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula09.md)
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 12 - Criação de arquivos .h e as relação com a Orientação a Objeto](https://github.com/brunamota/AP2/blob/main/Aulas/Aula12.md)
 
@@ -39,6 +37,4 @@
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 18 - Leitura e Escrita de Arquivos em Diferentes Linguagens](https://github.com/brunamota/AP2/blob/main/Aulas/Aula18.md)
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 19 - Utilização de Manipulação de Arquivos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula19.md)
-
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 20 - Revisão e práticas de manipulação de arquivos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula20.md)
 
