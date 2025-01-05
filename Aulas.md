@@ -1,6 +1,6 @@
 <div align="center">
 
-![cabecalhoGitAulas](https://github.com/user-attachments/assets/51eb45ce-c555-4c67-8e82-97b6ba78b395)
+![cabecalhoGitAulas](https://github.com/user-attachments/assets/7a4e122f-daed-4fc6-9fc9-023ead221d21)
 
 </div>
 
