@@ -1,4 +1,4 @@
-# Aula 1 - Introdução às Estruturas de Dados Heterogêneas
+# Aula 01 - Introdução às Estruturas de Dados Heterogêneas
 
 ## O que são Estruturas de Dados Heterogêneas?
 
