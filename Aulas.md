@@ -45,5 +45,5 @@
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 20 - Utilização de Manipulação de Arquivos
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 21 - Revisão e práti cas de manipulação de arquivos
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 21 - Revisão e práticas de manipulação de arquivos
 
