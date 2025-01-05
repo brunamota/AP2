@@ -19,7 +19,6 @@ Vamos criar um arquivo de cabeçalho para um módulo de operações matemáticas
 **Arquivo: `matematica.h`**
 
 ```c
-#ifndef MATEMATICA_H
 #define MATEMATICA_H
 
 // Declarações de funções
@@ -28,7 +27,6 @@ float subtracao(float a, float b);
 float multiplicacao(float a, float b);
 float divisao(float a, float b);
 
-#endif // MATEMATICA_H
 ```
 
 ## Criando Arquivos de Implementação (`.c`)
@@ -131,7 +129,6 @@ Crie um arquivo de cabeçalho para as definições de `struct` e suas funções.
 **Arquivo: `ponto.h`**
 
 ```c
-#ifndef PONTO_H
 #define PONTO_H
 
 typedef struct {
@@ -141,6 +138,4 @@ typedef struct {
 
 Ponto criarPonto(float x, float y);
 float distancia(Ponto p1, Ponto p2);
-
-#endif // PONTO_H
 ```
