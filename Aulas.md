@@ -16,13 +16,13 @@
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 06 - Criação de Funções e Procedimentos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula06.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 07 - Criação de Funções e Procedimentos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula07.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 07 - Funções Recursivas: Conceitos e Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula07.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 08 - Funções Recursivas: Conceitos e Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula08.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 08 - Funções Recursivas: Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula08.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 09 - Funções Recursivas: Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula09.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 09 - Criação de arquivos .h e as relação com a Orientação a Objeto](https://github.com/brunamota/AP2/blob/main/Aulas/Aula09.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 12 - Criação de arquivos .h e as relação com a Orientação a Objeto](https://github.com/brunamota/AP2/blob/main/Aulas/Aula12.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 12 - ](https://github.com/brunamota/AP2/blob/main/Aulas/Aula12.md)
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 13 - Introdução a Ponteiros e Referências de Memória](https://github.com/brunamota/AP2/blob/main/Aulas/Aula13.md)
 
