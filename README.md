@@ -31,6 +31,6 @@ TBD
 
 ![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Aulas](https://github.com/brunamota/AP2/blob/main/Aulas.md)
 
-![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Exercicios](https://github.com/brunamota/AP2/blob/main/Exercicio.md)
+![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Exercicios](https://github.com/brunamota/AP2/blob/main/Exercicios.md)
 
 ![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Trabalhos](https://github.com/brunamota/AP2/blob/main/Trabalhos.md)
