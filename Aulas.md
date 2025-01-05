@@ -2,7 +2,7 @@
 
 
 
-</div>![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b)
+</div>
 
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 1 - Introdução às Estruturas de Dados Heterogêneas
