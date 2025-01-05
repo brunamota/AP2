@@ -85,18 +85,7 @@ int main() {
 
 ## Boas Práticas na Criação de Funções
 
-### Nome Descritivo
-
-Dê nomes descritivos às funções que indiquem claramente o que elas fazem. Por exemplo, use `calcularMedia` em vez de `func1`.
-
-### Tamanho da Função
-
-Mantenha as funções curtas e focadas em uma única tarefa. Isso melhora a legibilidade e facilita a manutenção.
-
-### Documentação
-
-Comente seu código e documente suas funções, explicando o que elas fazem, os parâmetros que recebem e os valores que retornam.
-
-### Evite Efeitos Colaterais
-
-Minimize efeitos colaterais, ou seja, evite que funções alterem variáveis globais ou parâmetros. Prefira retornar valores em vez de modificar diretamente.
+1. **Nome Descritivo:** Dê nomes descritivos às funções que indiquem claramente o que elas fazem. Por exemplo, use `calcularMedia` em vez de `func1`.
+2. **Tamanho da Função:** Mantenha as funções curtas e focadas em uma única tarefa. Isso melhora a legibilidade e facilita a manutenção.
+3. **Documentação:** Comente seu código e documente suas funções, explicando o que elas fazem, os parâmetros que recebem e os valores que retornam.
+4. **Evite Efeitos Colaterais:** Minimize efeitos colaterais, ou seja, evite que funções alterem variáveis globais ou parâmetros. Prefira retornar valores em vez de modificar diretamente.
