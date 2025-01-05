@@ -1,107 +1,72 @@
-# Aula 02 - Uso de `union` para Estruturas Heterogêneas
+# Aula 4 - Análise de Estruturas: `structs` e Classes (Java)
 
-## O que é `union`?
+## 2.2. Classes em Java
 
-Em C, uma `union` permite que diferentes tipos de dados compartilhem o mesmo espaço de memória. Isso é útil quando você deseja economizar espaço, armazenando um único valor de diferentes tipos em momentos diferentes.
+### O que são Classes?
 
-#### Exemplo de `union`
+- Classes em Java são um conceito fundamental da programação orientada a objetos, permitindo a definição de tipos de dados que incluem tanto atributos (dados) quanto métodos (funcionalidades).
 
-```c
-#include <stdio.h>
+### Estrutura Básica de uma Classe
 
-union Dados {
-    int inteiro;
-    float ponto_flutuante;
-    char caractere;
-};
+Aqui está um exemplo de uma classe em Java que representa um aluno:
 
-int main() {
-    union Dados d;
+```java
+public class Aluno {
+    // Atributos (ou campos)
+    private String nome;
+    private int idade;
+    private float nota;
 
-    d.inteiro = 10;
-    printf("Inteiro: %d\n", d.inteiro);
+    // Construtor
+    public Aluno(String nome, int idade, float nota) {
+        this.nome = nome;
+        this.idade = idade;
+        this.nota = nota;
+    }
 
-    d.ponto_flutuante = 3.14;
-    printf("Ponto Flutuante: %f\n", d.ponto_flutuante); // O valor anterior é sobrescrito
-
-    d.caractere = 'A';
-    printf("Caractere: %c\n", d.caractere); // O valor anterior é sobrescrito
-
-    return 0;
+    // Métodos
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome + ", Idade: " + idade + ", Nota: " + nota);
+    }
 }
 ```
 
-## Implementação de Estruturas Heterogêneas
+### Exemplo de Uso da Classe
 
-### 2.1. Usando `union` em C
+Aqui está um exemplo de como criar e usar a classe `Aluno` em um programa Java:
 
-Vamos criar uma estrutura que utiliza `union` para armazenar diferentes tipos de dados, como em uma lista de contatos, onde o telefone pode ser um número inteiro ou uma string.
-
-```c
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-#define MAX_CONTATOS 100
-
-// Definição da união para o telefone
-union Telefone {
-    char telefone_str[15];
-    long telefone_int;
-};
-
-// Definição da estrutura 'Contato'
-struct Contato {
-    char nome[50];
-    union Telefone telefone;
-    char tipo_telefone; // 's' para string, 'i' para inteiro
-};
-
-// Função para adicionar contato
-void adicionarContato(struct Contato* contato, const char* nome, const char* telefone) {
-    strcpy(contato->nome, nome);
-    
-    // Verifica se o telefone é numérico
-    if (telefone[0] >= '0' && telefone[0] <= '9') {
-        contato->telefone.telefone_int = atol(telefone);
-        contato->tipo_telefone = 'i'; // Inteiro
-    } else {
-        strcpy(contato->telefone.telefone_str, telefone);
-        contato->tipo_telefone = 's'; // String
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Criação de um objeto da classe Aluno
+        Aluno aluno1 = new Aluno("Maria", 20, 8.5f);
+        
+        // Chamando o método para exibir informações
+        aluno1.exibirInformacoes();
     }
-}
-
-// Função para exibir contato
-void exibirContato(struct Contato contato) {
-    printf("Nome: %s\n", contato.nome);
-    if (contato.tipo_telefone == 'i') {
-        printf("Telefone: %ld\n", contato.telefone.telefone_int);
-    } else {
-        printf("Telefone: %s\n", contato.telefone.telefone_str);
-    }
-}
-
-int main() {
-    struct Contato contato1;
-    adicionarContato(&contato1, "Maria", "123456789");
-    
-    struct Contato contato2;
-    adicionarContato(&contato2, "João", "joao@example.com");
-
-    // Exibindo contatos
-    exibirContato(contato1);
-    exibirContato(contato2);
-
-    return 0;
 }
 ```
 
-## Vantagens e Desvantagens
+### Principais Conceitos
 
-### `union` em C
+- **Encapsulamento**: Os atributos da classe são privados (`private`), o que significa que não podem ser acessados diretamente de fora da classe. Métodos públicos (como `exibirInformacoes`) são usados para acessar e manipular esses atributos.
+  
+- **Construtores**: Uma classe pode ter um ou mais construtores, que são usados para inicializar os objetos. O construtor da classe `Aluno` recebe parâmetros para definir os atributos ao criar um novo objeto.
 
-**Vantagens:**
-- Economiza espaço, pois todos os membros compartilham a mesma área de memória.
+- **Métodos**: Métodos são funções definidas dentro da classe que podem operar nos dados da classe. O método `exibirInformacoes` imprime os detalhes do aluno.
 
-**Desvantagens:**
-- Menos seguro, pois não há verificação de tipo em tempo de execução, podendo levar a acesso a dados inválidos.
+### Comparação com `structs`
+
+| Característica         | `struct` em C          | Classe em Java        |
+|------------------------|------------------------|-----------------------|
+| Encapsulamento         | Não suportado          | Suportado             |
+| Acesso a Membros       | Público por padrão     | Privado por padrão    |
+| Métodos                | Não suportados         | Suportados            |
+| Herança                | Não suportada          | Suportada             |
+| Construtores           | Não suportados         | Suportados            |
+
+## Conclusão
+
+Nesta seção, discutimos como as classes em Java funcionam e como elas se comparam às `structs` em C. Aprendemos sobre encapsulamento, construtores e métodos. Na próxima aula, exploraremos conceitos avançados de programação orientada a objetos, como herança e polimorfismo em Java.
+
+Se você tiver alguma dúvida ou precisar de mais exemplos, sinta-se à vontade para perguntar!
