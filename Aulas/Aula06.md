@@ -2,11 +2,11 @@
 
 ## O que são Funções e Procedimentos?
 
-- Funções: Funções são blocos de código que realizam uma tarefa específica e podem retornar um valor. Elas são úteis para reutilizar código e organizar a lógica do programa.
+- **Funções:** Funções são blocos de código que realizam uma tarefa específica e podem retornar um valor. Elas são úteis para reutilizar código e organizar a lógica do programa.
 
-- Procedimentos: Procedimentos, por outro lado, são semelhantes às funções, mas não retornam um valor. Eles realizam ações, mas não produzem um resultado que pode ser utilizado diretamente.
+- **Procedimentos:** Procedimentos, por outro lado, são semelhantes às funções, mas não retornam um valor. Eles realizam ações, mas não produzem um resultado que pode ser utilizado diretamente.
 
-- Diferença: Em C, a terminologia comum é "funções", pois todas as funções podem ser vistas como procedimentos se não retornarem um valor.
+- **Diferença:** Em C, a terminologia comum é "funções", pois todas as funções podem ser vistas como procedimentos se não retornarem um valor.
 
 ## Criando Funções em C
 
@@ -50,8 +50,8 @@ int soma(int a, int b) {
 
 ## Parâmetros e Valores de Retorno
 
-- Parâmetros: As funções podem receber parâmetros, que são passados entre parênteses. Os parâmetros podem ser de diferentes tipos (int, float, char, etc.).
-- Valores de Retorno: As funções podem retornar um valor usando a instrução `return`. O tipo do valor retornado deve corresponder ao tipo especificado na declaração da função.
+-** Parâmetros:** As funções podem receber parâmetros, que são passados entre parênteses. Os parâmetros podem ser de diferentes tipos (int, float, char, etc.).
+- **Valores de Retorno:** As funções podem retornar um valor usando a instrução `return`. O tipo do valor retornado deve corresponder ao tipo especificado na declaração da função.
 
 ### Exemplo com Parâmetros e Valores de Retorno
 
