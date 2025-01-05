@@ -28,7 +28,7 @@
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 12 - Diferenças entre ponteiros e referências](https://github.com/brunamota/AP2/blob/main/Aulas/Aula12.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 13 - Aplicações práti cas de ponteiros em estruturas de dados](https://github.com/brunamota/AP2/blob/main/Aulas/Aula13.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 13 - Aplicações práticas de ponteiros em estruturas de dados](https://github.com/brunamota/AP2/blob/main/Aulas/Aula13.md)
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 14 - Introdução à Manipulação de Arquivos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula14.md)
 
