@@ -4,4 +4,4 @@
 
 </div>
 
-![iconGitBatata](https://github.com/user-attachments/assets/4dd7a270-3376-4280-8df7-ff930f4fe86f)
+![iconGitCenoura](https://github.com/user-attachments/assets/185642b5-f067-496f-9147-159f6711d72d)
