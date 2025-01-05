@@ -58,20 +58,20 @@ Serializar dados heterogêneos (converter em um formato que pode ser armazenado 
 **Solução:**
 - Implemente funções específicas para serializar e desserializar cada tipo de dado. Considere usar formatos de serialização como JSON ou Protocol Buffers para facilitar.
 
-## Melhores Práticas
+## - Melhores Práticas
 
-### Uso de Tipos e Nomes Claros
+### - Uso de Tipos e Nomes Claros
 
 Escolha nomes descritivos para campos e tipos. Isso ajuda a evitar confusões sobre o que cada parte da estrutura representa.
 
-### Encapsulamento
+### - Encapsulamento
 
 Em linguagens orientadas a objetos, use encapsulamento para proteger os dados e expor apenas métodos necessários. Isso reduz a chance de acesso incorreto.
 
-### Validação de Dados
+### - Validação de Dados
 
 Sempre valide os dados antes de armazená-los em uma estrutura heterogênea. Isso pode evitar erros e inconsistências.
 
-### Testes
+### - Testes
 
 Escreva testes unitários para cada parte da sua estrutura. Isso ajuda a garantir que cada tipo de dado e a lógica associada funcionem corretamente.
