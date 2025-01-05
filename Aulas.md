@@ -4,46 +4,43 @@
 
 </div>
 
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 01 - Introdução às Estruturas de Dados Heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula01.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 1 - Introdução às Estruturas de Dados Heterogêneas
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 02 - Análise de Estruturas como structs e classes](https://github.com/brunamota/AP2/blob/main/Aulas/Aula02.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 2 - Introdução às Estruturas de Dados Heterogêneas
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 03 - Implementação de uma estrutura de dados heterogênea (ex: lista de contatos)](https://github.com/brunamota/AP2/blob/main/Aulas/Aula03.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 3 - Análise de Estruturas como structs e classes
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 04 - Comparação entre estruturas homogêneas e heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula04.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 4 - Implementação de uma estrutura de dados heterogênea (ex: lista de contatos)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 05 - Uso de union e variant para estruturas heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula05.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 5 - Comparação entre estruturas homogêneas e heterogêneas
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 06 - Revisão e discussão de problemas comuns com estruturas heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula06.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 6 - Uso de union e variant para estruturas heterogêneas
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 07 - Introdução à Programação Modular e Importância](https://github.com/brunamota/AP2/blob/main/Aulas/Aula07.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 7 - Revisão e discussão de problemas comuns com estruturas heterogêneas
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 08 - Criação de Funções e Procedimentos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula08.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 8 - Introdução à Programação Modular e Importância
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 09 - Funções Recursivas: Conceitos e Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula09.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 9 - Criação de Funções e Procedimentos
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 10 - Funções Recursivas: Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula10.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 10 - Funções Recursivas: Conceitos e Exemplos
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 11 - Revisão de funções e procedimentos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula11.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 11 - Funções Recursivas: Exemplos
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 12 - Criação de arquivos .h e as relação com a Orientação a Objeto](https://github.com/brunamota/AP2/blob/main/Aulas/Aula12.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 12 - Revisão de funções e procedimentos
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 13 - Introdução a Ponteiros e Referências de Memória](https://github.com/brunamota/AP2/blob/main/Aulas/Aula13.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 13 - Criação de arquivos .h e as relação com a Orientação a Objeto
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 14 - Manipulação de Ponteiros](https://github.com/brunamota/AP2/blob/main/Aulas/Aula14.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 14 - Introdução a Ponteiros e Referências de Memória
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 15 - Diferenças entre ponteiros e referências](https://github.com/brunamota/AP2/blob/main/Aulas/Aula15.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 15 - Manipulação de Ponteiros
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 16 - Aplicações práti cas de ponteiros em estruturas de dados](https://github.com/brunamota/AP2/blob/main/Aulas/Aula16.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 16 - Diferenças entre ponteiros e referências
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 17 - Introdução à Manipulação de Arquivos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula17.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 17 - Aplicações práti cas de ponteiros em estruturas de dados
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 18 - Leitura e Escrita de Arquivos em Diferentes Linguagens](https://github.com/brunamota/AP2/blob/main/Aulas/Aula18.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 18 - Introdução à Manipulação de Arquivos
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 19 - Utilização de Manipulação de Arquivos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula19.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 19 - Leitura e Escrita de Arquivos em Diferentes Linguagens
-
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 20 - Utilização de Manipulação de Arquivos
-
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) Aula 21 - Revisão e práticas de manipulação de arquivos
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 20 - Revisão e práticas de manipulação de arquivos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula20.md)
 
