@@ -132,9 +132,3 @@ int main() {
     return 0;
 }
 ```
-
-## 4. Conclusão
-
-Nesta aula, exploramos funções recursivas com exemplos práticos, como calcular potência, inverter uma string e somar números naturais. Também discutimos a comparação entre soluções recursivas e iterativas, destacando a importância de escolher a abordagem mais adequada para cada problema.
-
-Se você tiver dúvidas ou quiser discutir mais exemplos de funções recursivas, sinta-se à vontade para perguntar!
