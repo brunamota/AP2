@@ -27,7 +27,8 @@ TBD
 
 ## Documentos da Disciplina
 
-![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Plano de Ensino](https://github.com/user-attachments/files/18310950/Plano.de.Ensino.AP2.-.Bruna.Mota.Barbosa.pdf)
+![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Plano de Ensino](https://github.com/user-attachments/files/18311078/Plano.de.Ensino.AP2.-.Bruna.Mota.Barbosa.pdf)
+
 
 ![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Aulas](https://github.com/brunamota/AP2/blob/main/Aulas.md)
 
