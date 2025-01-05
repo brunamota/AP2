@@ -1,6 +1,6 @@
 # Aula 05 - Análise de Estruturas: `structs` e Classes (Java)
 
-## 2.2. Classes em Java
+## Classes em Java
 
 ### O que são Classes?
 
