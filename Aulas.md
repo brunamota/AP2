@@ -6,19 +6,17 @@
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 01 - Introdução às Estruturas de Dados Heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula01.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 02 - Análise de Estruturas como structs e classes](https://github.com/brunamota/AP2/blob/main/Aulas/Aula02.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 02 - Implementação de uma estrutura de dados heterogênea (ex: lista de contatos)](https://github.com/brunamota/AP2/blob/main/Aulas/Aula02.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 03 - Implementação de uma estrutura de dados heterogênea (ex: lista de contatos)](https://github.com/brunamota/AP2/blob/main/Aulas/Aula03.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 03 - Comparação entre estruturas homogêneas e heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula03.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 04 - Comparação entre estruturas homogêneas e heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula04.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 04 - Revisão e discussão de problemas comuns com estruturas heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula04.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 05 - Uso de union e variant para estruturas heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula05.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 05 - Análise de Estruturas como structs e classes](https://github.com/brunamota/AP2/blob/main/Aulas/Aula05.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 06 - Revisão e discussão de problemas comuns com estruturas heterogêneas](https://github.com/brunamota/AP2/blob/main/Aulas/Aula06.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 06 - Introdução à Programação Modular e Importância](https://github.com/brunamota/AP2/blob/main/Aulas/Aula06.md)
 
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 07 - Introdução à Programação Modular e Importância](https://github.com/brunamota/AP2/blob/main/Aulas/Aula07.md)
-
-![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 08 - Criação de Funções e Procedimentos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula08.md)
+![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 07 - Criação de Funções e Procedimentos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula07.md)
 
 ![iconGitCebola](https://github.com/user-attachments/assets/2caf6862-939a-48ac-8ec1-a648a23bdb4b) [Aula 09 - Funções Recursivas: Conceitos e Exemplos](https://github.com/brunamota/AP2/blob/main/Aulas/Aula09.md)
 
