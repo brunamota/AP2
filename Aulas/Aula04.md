@@ -1,11 +1,5 @@
 # Aula 04 - Comparação entre Estruturas Homogêneas e Heterogêneas
 
-## Objetivos da Aula
-
-- Compreender as diferenças entre estruturas homogêneas e heterogêneas.
-- Analisar as vantagens e desvantagens de cada tipo de estrutura.
-- Discutir casos de uso apropriados para cada abordagem.
-
 ## O que são Estruturas Homogêneas e Heterogêneas?
 
 ### Estruturas Homogêneas
