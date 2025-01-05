@@ -13,15 +13,14 @@ TBD
 
 ## Datas Importantes
 
-![iconGitVermelho](https://github.com/user-attachments/assets/d97481fc-c1ef-4c96-a1e4-b99b8a61990a) TBD
+![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) TBD
 
 ## Documentos da Disciplina
 
-![iconGitVermelho](https://github.com/user-attachments/assets/d97481fc-c1ef-4c96-a1e4-b99b8a61990a) [Plano de Ensino](https://github.com/user-attachments/files/18310950/Plano.de.Ensino.AP2.-.Bruna.Mota.Barbosa.pdf)
+![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Plano de Ensino](https://github.com/user-attachments/files/18310950/Plano.de.Ensino.AP2.-.Bruna.Mota.Barbosa.pdf)
 
+![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Aulas](https://github.com/brunamota/AP2/blob/main/Aulas.md)
 
-![iconGitVermelho](https://github.com/user-attachments/assets/d97481fc-c1ef-4c96-a1e4-b99b8a61990a) [Aulas](https://github.com/brunamota/AP2/blob/main/Aulas.md)
+![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Exercicios](https://github.com/brunamota/AP2/blob/main/Trabalhos.md)
 
-![iconGitVermelho](https://github.com/user-attachments/assets/d97481fc-c1ef-4c96-a1e4-b99b8a61990a) [Exercicios](https://github.com/brunamota/AP2/blob/main/Trabalhos.md)
-
-![iconGitVermelho](https://github.com/user-attachments/assets/d97481fc-c1ef-4c96-a1e4-b99b8a61990a) [Trabalhos](https://github.com/brunamota/AP2/blob/main/Trabalhos.md)
+![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Trabalhos](https://github.com/brunamota/AP2/blob/main/Trabalhos.md)
