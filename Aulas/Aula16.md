@@ -19,7 +19,7 @@ A manipulação de arquivos é uma habilidade essencial em programação, pois p
 
 ## Exemplos Práticos
 
-### Exemplo em C: Gerenciamento de Notas
+### Exemplo: Gerenciamento de Notas
 
 Vamos criar um programa simples que permite adicionar notas a um arquivo e exibi-las.
 
