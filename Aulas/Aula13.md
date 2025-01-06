@@ -1,14 +1,14 @@
 # Aula 13 - Aplicações Práticas de Ponteiros em Estruturas de Dados
 
-## 1. Estruturas de Dados e Ponteiros
+## Estruturas de Dados e Ponteiros
 
 Ponteiros são fundamentais para a implementação de várias estruturas de dados dinâmicas, como listas encadeadas e pilhas. Eles permitem que você crie estruturas que podem crescer e encolher conforme necessário durante a execução do programa, utilizando a memória de forma eficiente.
 
-## 2. Listas Encadeadas
+## Listas Encadeadas
 
 Uma lista encadeada é uma estrutura de dados que consiste em uma sequência de elementos, onde cada elemento aponta para o próximo. Isso permite a inserção e remoção de elementos de forma dinâmica.
 
-### 2.1. Estrutura de um Nó
+### Estrutura de um Nó
 
 Cada nó da lista encadeada contém um valor e um ponteiro para o próximo nó.
 
@@ -23,7 +23,7 @@ typedef struct Nodo {
 } Nodo;
 ```
 
-### 2.2. Funções Básicas
+### Funções Básicas
 
 Vamos implementar funções básicas para criar uma lista encadeada: inserção e impressão dos elementos.
 
@@ -51,7 +51,7 @@ void imprimirLista(Nodo *cabeca) {
 }
 ```
 
-### 2.3. Exemplo Completo
+### Exemplo Completo
 
 ```c
 #include <stdio.h>
@@ -104,11 +104,11 @@ int main() {
 }
 ```
 
-## 3. Pilhas
+## Pilhas
 
 Uma pilha é uma estrutura de dados que segue o princípio LIFO (Last In, First Out). As operações principais são `push` (inserir) e `pop` (remover).
 
-### 3.1. Estrutura da Pilha
+### Estrutura da Pilha
 
 A pilha pode ser implementada usando uma lista encadeada.
 
@@ -118,7 +118,7 @@ typedef struct Pilha {
 } Pilha;
 ```
 
-### 3.2. Funções para a Pilha
+### Funções para a Pilha
 
 #### Função para Criar uma Pilha
 
@@ -154,7 +154,7 @@ int pop(Pilha *pilha) {
 }
 ```
 
-### 3.3. Exemplo Completo de Pilha
+### Exemplo Completo de Pilha
 
 ```c
 #include <stdio.h>
