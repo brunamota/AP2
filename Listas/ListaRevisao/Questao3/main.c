@@ -12,5 +12,4 @@ int main() {
     scanf("%f %f", &largura, &altura);
     printf("Área do retângulo: %.2f\n", calcularAreaRetangulo(largura, altura));
 
-    return 0;
 }
