@@ -11,17 +11,11 @@ A manipulação de arquivos é uma habilidade essencial em programação, pois p
 
 ## Estrutura Básica para Manipulação de Arquivos
 
-### Abertura de Arquivo
+- **Abertura de Arquivo:** Para manipular um arquivo, você deve primeiro abri-lo com o modo apropriado. Isso é feito utilizando as funções específicas de cada linguagem.
 
-Para manipular um arquivo, você deve primeiro abri-lo com o modo apropriado. Isso é feito utilizando as funções específicas de cada linguagem.
+- **Leitura e Escrita:** Após abrir o arquivo, você pode realizar operações de leitura ou escrita. É essencial garantir que o arquivo seja fechado após o uso para liberar recursos.
 
-### Leitura e Escrita
-
-Após abrir o arquivo, você pode realizar operações de leitura ou escrita. É essencial garantir que o arquivo seja fechado após o uso para liberar recursos.
-
-### Tratamento de Erros
-
-Sempre verifique se o arquivo foi aberto corretamente. O tratamento de erros é crucial para evitar falhas no programa.
+- **Tratamento de Erros:** Sempre verifique se o arquivo foi aberto corretamente. O tratamento de erros é crucial para evitar falhas no programa.
 
 ## Exemplos Práticos
 
@@ -81,8 +75,3 @@ int main() {
     return 0;
 }
 ```
-
-## 4. Boas Práticas
-
-- **Verifique se o arquivo foi aberto corretamente**: Sempre verifique se a abertura do arquivo foi bem-sucedida.
-- **Feche os arquivos**: Sempre feche os arquivos após terminar as operações para liberar recursos.
