@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include "geometria.h"
 
+float calcularAreaCirculo(float raio) {
+    return PI * raio * raio;
+}
+
+float calcularAreaRetangulo(float largura, float altura) {
+    return largura * altura;
+}
+
 int main() {
     float raio, largura, altura;
 
