@@ -1,25 +1,19 @@
 # Aula 14 - Introdução à Manipulação de Arquivos em C
 
-## Objetivos da Aula
-
-- Compreender os conceitos básicos de manipulação de arquivos em C.
-- Aprender sobre os modos de abertura de arquivos.
-- Explorar funções para leitura e escrita de arquivos.
-
-## 1. Conceitos Básicos
+## Conceitos Básicos
 
 Manipulação de arquivos é um aspecto fundamental da programação, permitindo que um programa leia de e escreva em arquivos no disco. Isso é útil para armazenar dados permanentemente, como configurações, resultados de cálculos, ou qualquer informação que precise ser preservada entre execuções do programa.
 
-### 1.1. Tipos de Arquivos
+### Tipos de Arquivos
 
 - **Arquivos de Texto**: Contêm dados em formato legível, como .txt e .csv.
 - **Arquivos Binários**: Contêm dados em formato binário, não legível diretamente, como imagens e executáveis.
 
-## 2. Abrindo Arquivos
+## Abrindo Arquivos
 
 Para manipular arquivos em C, utilizamos a biblioteca padrão `<stdio.h>`. A função principal para abrir um arquivo é `fopen`.
 
-### 2.1. Modos de Abertura
+### Modos de Abertura
 
 Os modos de abertura determinam como o arquivo será manipulado:
 
@@ -50,9 +44,9 @@ int main() {
 }
 ```
 
-## 3. Lendo e Escrevendo Arquivos
+## Lendo e Escrevendo Arquivos
 
-### 3.1. Escrevendo em Arquivos
+### Escrevendo em Arquivos
 
 Usamos a função `fprintf` para escrever dados formatados em arquivos.
 
@@ -63,7 +57,7 @@ fprintf(arquivo, "Linha 2\n");
 fclose(arquivo);
 ```
 
-### 3.2. Lendo de Arquivos
+### Lendo de Arquivos
 
 A função `fscanf` é usada para ler dados formatados de arquivos.
 
@@ -88,11 +82,11 @@ int main() {
 }
 ```
 
-## 4. Manipulação de Arquivos Binários
+## Manipulação de Arquivos Binários
 
 Para manipular arquivos binários, usamos as funções `fwrite` e `fread`.
 
-### 4.1. Escrevendo um Arquivo Binário
+### Escrevendo um Arquivo Binário
 
 ```c
 #include <stdio.h>
@@ -108,7 +102,7 @@ int main() {
 }
 ```
 
-### 4.2. Lendo um Arquivo Binário
+### Lendo um Arquivo Binário
 
 ```c
 #include <stdio.h>
@@ -128,9 +122,3 @@ int main() {
     return 0;
 }
 ```
-
-## 5. Conclusão
-
-Nesta aula, aprendemos os conceitos básicos de manipulação de arquivos em C, incluindo como abrir, ler e escrever em arquivos de texto e binários. A manipulação de arquivos é uma habilidade essencial para qualquer programador que deseja criar aplicativos que interagem com dados persistentes.
-
-Se você tiver dúvidas ou quiser discutir mais sobre manipulação de arquivos ou suas aplicações, sinta-se à vontade para perguntar!
