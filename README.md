@@ -25,6 +25,10 @@ Segunda a Sexta - 7h30 às 11h - LEC 03
 
 ![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) Entrega e Apresentação de Trabalho Prático 2 - 29/01/2025
 
+## Links Importantes
+
+![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Servidor do discord](https://discord.gg/Fh7pwaJDHF)
+
 ## Documentos da Disciplina
 
 ![iconGitAzul](https://github.com/user-attachments/assets/5183b013-7c33-4f84-88b4-59e56968fd6d) [Plano de Ensino](https://github.com/user-attachments/files/18311078/Plano.de.Ensino.AP2.-.Bruna.Mota.Barbosa.pdf)
