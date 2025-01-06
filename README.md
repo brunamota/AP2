@@ -9,7 +9,7 @@
 
 ## Horário das Aulas
 
-TBD
+Segunda a Sexta - 7h30 às 11h - LEC 03
 
 ## Datas Importantes
 
