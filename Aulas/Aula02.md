@@ -14,7 +14,7 @@ typedef struct {
 } Contato;
 
 typedef struct {
-    Contato contatos[MAX_CONTATOS];
+    Contato contatos[5];
     int total;
 } ListaContatos;
 ```
