@@ -8,8 +8,9 @@ Vamos criar uma estrutura que representa um contato, que pode incluir nome, núm
 
 ``` C
 typedef struct {
-    char nome[100];
-    char telefone[15];
+    char nome[50];
+    int telefone;
+    char email[50];
 } Contato;
 
 typedef struct {
