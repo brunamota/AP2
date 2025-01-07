@@ -6,32 +6,16 @@ Vamos criar uma estrutura que representa um contato, que pode incluir nome, núm
 
 ### Definindo as Estruturas
 
-```c
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+``` C
+typedef struct {
+    char nome[100];
+    char telefone[15];
+} Contato;
 
-#define MAX_CONTATOS 100
-
-// Definição da união para o telefone
-union Telefone {
-    char telefone_str[15]; // Número de telefone como string
-    long telefone_int;      // Número de telefone como inteiro
-};
-
-// Definição da estrutura 'Contato'
-struct Contato {
-    char nome[50];
-    union Telefone telefone;
-    char email[50];
-    char tipo_telefone; // 's' para string, 'i' para inteiro
-};
-
-// Definição da lista de contatos
-struct ListaContatos {
-    struct Contato contatos[MAX_CONTATOS];
-    int total_contatos;
-};
+typedef struct {
+    Contato contatos[MAX_CONTATOS];
+    int total;
+} ListaContatos;
 ```
 
 ## Operações Básicas
@@ -41,23 +25,19 @@ struct ListaContatos {
 Vamos implementar uma função para adicionar um contato à lista.
 
 ```c
-void adicionarContato(struct ListaContatos* lista, const char* nome, const char* telefone, const char* email) {
-    if (lista->total_contatos >= MAX_CONTATOS) {
-        printf("A lista de contatos está cheia!\n");
-        return;
-    }
+void adicionarContato(ListaContatos lista) {
+    if (lista.total < MAX_CONTATOS) {
+        printf("Digite o nome: ");
+        fgets(lista.contatos[lista.total].nome, sizeof(lista.contatos[lista.total].nome), stdin);
+        lista.contatos[lista.total].nome[strcspn(lista.contatos[lista.total].nome, "\n")] = '\0'; // Remove a nova linha
 
-    struct Contato* novo_contato = &lista->contatos[lista->total_contatos++];
-    strcpy(novo_contato->nome, nome);
-    strcpy(novo_contato->email, email);
+        printf("Digite o telefone: ");
+        fgets(lista.contatos[lista.total].telefone, sizeof(lista.contatos[lista.total].telefone), stdin);
+        lista.contatos[lista.total].telefone[strcspn(lista.contatos[lista.total].telefone, "\n")] = '\0'; // Remove a nova linha
 
-    // Verificando se o telefone é numérico (inteiro) ou não (string)
-    if (telefone[0] >= '0' && telefone[0] <= '9') {
-        novo_contato->telefone.telefone_int = atol(telefone); // converte string para long
-        novo_contato->tipo_telefone = 'i'; // Define como inteiro
+        lista.total++;
     } else {
-        strcpy(novo_contato->telefone.telefone_str, telefone);
-        novo_contato->tipo_telefone = 's'; // Define como string
+        printf("Lista de contatos cheia!\n");
     }
 }
 ```
@@ -66,19 +46,25 @@ void adicionarContato(struct ListaContatos* lista, const char* nome, const char*
 
 Agora, vamos implementar uma função para exibir os contatos da lista.
 
-```c
-void exibirContatos(const struct ListaContatos* lista) {
+``` C
+void exibirContatos(ListaContatos lista) {
     printf("Lista de Contatos:\n");
-    for (int i = 0; i < lista->total_contatos; i++) {
-        struct Contato contato = lista->contatos[i];
-        printf("Nome: %s\n", contato.nome);
-        if (contato.tipo_telefone == 'i') {
-            printf("Telefone: %ld\n", contato.telefone.telefone_int);
-        } else {
-            printf("Telefone: %s\n", contato.telefone.telefone_str);
-        }
-        printf("Email: %s\n\n", contato.email);
+    for (int i = 0; i < lista.total; i++) {
+        printf("Nome: %s, Telefone: %s\n", lista.contatos[i].nome, lista.contatos[i].telefone);
     }
+}
+```
+
+### Função para Buscar Contatos
+
+```C
+int buscarContato(ListaContatos lista, const char *nome) {
+    for (int i = 0; i < lista.total; i++) {
+        if (strcmp(lista.contatos[i].nome, nome) == 0) {
+            return i; // Retorna o índice do contato encontrado
+        }
+    }
+    return -1; // Retorna -1 se não encontrado
 }
 ```
 
@@ -88,16 +74,49 @@ Agora, vamos criar um programa principal que utiliza essas funções.
 
 ```c
 int main() {
-    struct ListaContatos lista;
-    lista.total_contatos = 0;
+    ListaContatos lista;
+    lista.total = 0;
+    int opcao;
 
-    // Adicionando contatos
-    adicionarContato(&lista, "Maria", "123456789", "maria@example.com");
-    adicionarContato(&lista, "João", "joao@example.com"); // telefone como string
-    adicionarContato(&lista, "Ana", "987654321", "ana@example.com");
+    do {
+        printf("\nMenu:\n");
+        printf("1. Adicionar Contato\n");
+        printf("2. Listar Contatos\n");
+        printf("3. Buscar Contato\n");
+        printf("0. Sair\n");
+        printf("Escolha uma opção: ");
+        scanf("%d", &opcao);
+        getchar(); // Consumir a nova linha
 
-    // Exibindo os contatos
-    exibirContatos(&lista);
+        switch (opcao) {
+            case 1:
+                adicionarContato(lista);
+                break;
+            case 2:
+                listarContatos(lista);
+                break;
+            case 3: {
+                char nome[100];
+                printf("Digite o nome a buscar: ");
+                fgets(nome, sizeof(nome), stdin);
+                nome[strcspn(nome, "\n")] = '\0'; // Remove a nova linha
+
+                int indice = buscarContato(lista, nome);
+                if (indice != -1) {
+                    printf("Contato encontrado: Nome: %s, Telefone: %s\n", lista.contatos[indice].nome, lista.contatos[indice].telefone);
+                } else {
+                    printf("Contato não encontrado.\n");
+                }
+                break;
+            }
+            case 0:
+                printf("Saindo...\n");
+                break;
+            default:
+                printf("Opção inválida!\n");
+                break;
+        }
+    } while (opcao != 0);
 
     return 0;
 }
