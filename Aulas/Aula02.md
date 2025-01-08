@@ -65,7 +65,7 @@ void exibirContato(struct ListaDeContatos lista) {
 ### Função para Buscar Contatos
 
 ```C
-int buscarContato(ListaContatos lista, const char *nome) {
+int buscarContato(struct ListaContatos lista, const char *nome) {
     for (int i = 0; i < lista.total; i++) {
         if (strcmp(lista.contatos[i].nome, nome) == 0) {
             return i; // Retorna o índice do contato encontrado
