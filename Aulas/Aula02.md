@@ -51,17 +51,6 @@ void adicionarContato(struct ListaDeContatos *lista) {
 Agora, vamos implementar uma função para exibir os contatos da lista.
 
 ``` C
-void exibirContatos(ListaContatos lista) {
-    printf("Lista de Contatos:\n");
-    for (int i = 0; i < lista.total; i++) {
-        printf("Nome: %s, Telefone: %s\n", lista.contatos[i].nome, lista.contatos[i].telefone);
-    }
-}
-```
-
-### Função para Buscar Contatos
-
-```C
 void exibirContato(struct ListaDeContatos lista) {
     printf("Lista de Contatos:\n");
     for (int i = 0; i < lista.quantidade; i++) {
@@ -70,6 +59,19 @@ void exibirContato(struct ListaDeContatos lista) {
         printf("Telefone: %d\n", lista.cadastros[i].telefone);
         printf("Email: %s\n", lista.cadastros[i].email);
     }
+}
+```
+
+### Função para Buscar Contatos
+
+```C
+int buscarContato(ListaContatos lista, const char *nome) {
+    for (int i = 0; i < lista.total; i++) {
+        if (strcmp(lista.contatos[i].nome, nome) == 0) {
+            return i; // Retorna o índice do contato encontrado
+        }
+    }
+    return -1; // Retorna -1 se não encontrado
 }
 ```
 
