@@ -79,53 +79,51 @@ int buscarContato(struct ListaContatos lista, const char *nome) {
 
 Agora, vamos criar um programa principal que utiliza essas funções.
 
-```c
+```C
 int main() {
-    ListaContatos lista;
-    lista.total = 0;
-    int opcao;
+    struct ListaDeContatos lista;
+    lista.quantidade = 0;
+    int op;
+    char nome[100];
 
     do {
-        printf("\nMenu:\n");
         printf("1. Adicionar Contato\n");
-        printf("2. Listar Contatos\n");
-        printf("3. Buscar Contato\n");
+        printf("2. Exibir Lista de Contato\n");
+        printf("3. Buscar contato\n");
         printf("0. Sair\n");
-        printf("Escolha uma opção: ");
-        scanf("%d", &opcao);
-        getchar(); // Consumir a nova linha
-
-        switch (opcao) {
+        printf("Opcao: ");
+        scanf("%d", &op);
+        switch (op) {
             case 1:
-                adicionarContato(lista);
+                adicionarContato(&lista);
                 break;
             case 2:
-                listarContatos(lista);
+                exibirContato(lista);
                 break;
-            case 3: {
-                char nome[100];
-                printf("Digite o nome a buscar: ");
-                fgets(nome, sizeof(nome), stdin);
-                nome[strcspn(nome, "\n")] = '\0'; // Remove a nova linha
+            case 3:
+            printf("Digite o nome a buscar: ");
+            setbuf(stdin, NULL);
+            gets(nome);
+            setbuf(stdin, NULL);
 
-                int indice = buscarContato(lista, nome);
-                if (indice != -1) {
-                    printf("Contato encontrado: Nome: %s, Telefone: %s\n", lista.contatos[indice].nome, lista.contatos[indice].telefone);
-                } else {
-                    printf("Contato não encontrado.\n");
-                }
-                break;
+            int indice = buscarContato(lista, nome);
+            if (indice == -1) {
+                printf("Contato nao encontrado\n");
+            }else {
+                printf("Contato encontrado %d\n", indice + 1);
+                printf("Nome: %s\n", lista.cadastros[indice].nome);
+                printf("Telefone: %d\n", lista.cadastros[indice].telefone);
+                printf("Email: %s\n", lista.cadastros[indice].email);
             }
+                break;
             case 0:
                 printf("Saindo...\n");
-                break;
+            break;
             default:
-                printf("Opção inválida!\n");
+                printf("Opcao invalida\n");
                 break;
         }
-    } while (opcao != 0);
-
-    return 0;
+    }while (op != 0);
 }
 ```
 
