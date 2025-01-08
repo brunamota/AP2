@@ -8,15 +8,15 @@ Vamos criar uma estrutura que representa um contato, que pode incluir nome, núm
 
 ``` C
 typedef struct {
-    char nome[50];
-    int telefone;
-    char email[50];
-} Contato;
+  char nome[50];
+  int telefone;
+  char email[50];
+}Cadastros;
 
-typedef struct {
-    Contato contatos[5];
-    int total;
-} ListaContatos;
+typedef struct ListaDeContatos{
+    Cadastros cadastros[5];
+    int quantidade;
+};
 ```
 
 ## Operações Básicas
@@ -26,19 +26,22 @@ typedef struct {
 Vamos implementar uma função para adicionar um contato à lista.
 
 ```c
-void adicionarContato(ListaContatos lista) {
-    if (lista.total < MAX_CONTATOS) {
+void adicionarContato(struct ListaDeContatos *lista) {
+    if (lista->quantidade < 5) {
         printf("Digite o nome: ");
-        fgets(lista.contatos[lista.total].nome, sizeof(lista.contatos[lista.total].nome), stdin);
-        lista.contatos[lista.total].nome[strcspn(lista.contatos[lista.total].nome, "\n")] = '\0'; // Remove a nova linha
+        setbuf(stdin, NULL);
+        gets(lista->cadastros[lista->quantidade].nome);
+        setbuf(stdin, NULL);
+        printf("Digite a telefone: ");
+        scanf("%d", &lista->cadastros[lista->quantidade].telefone);
+        setbuf(stdin, NULL);
+        printf("Digite a email: ");
+        gets(lista->cadastros[lista->quantidade].email);
+        setbuf(stdin, NULL);
 
-        printf("Digite o telefone: ");
-        fgets(lista.contatos[lista.total].telefone, sizeof(lista.contatos[lista.total].telefone), stdin);
-        lista.contatos[lista.total].telefone[strcspn(lista.contatos[lista.total].telefone, "\n")] = '\0'; // Remove a nova linha
-
-        lista.total++;
+        lista->quantidade++;
     } else {
-        printf("Lista de contatos cheia!\n");
+        printf("Lista cheia");
     }
 }
 ```
@@ -59,13 +62,14 @@ void exibirContatos(ListaContatos lista) {
 ### Função para Buscar Contatos
 
 ```C
-int buscarContato(ListaContatos lista, const char *nome) {
-    for (int i = 0; i < lista.total; i++) {
-        if (strcmp(lista.contatos[i].nome, nome) == 0) {
-            return i; // Retorna o índice do contato encontrado
-        }
+void exibirContato(struct ListaDeContatos lista) {
+    printf("Lista de Contatos:\n");
+    for (int i = 0; i < lista.quantidade; i++) {
+        printf("Contato %d\n", i + 1);
+        printf("Nome: %s\n", lista.cadastros[i].nome);
+        printf("Telefone: %d\n", lista.cadastros[i].telefone);
+        printf("Email: %s\n", lista.cadastros[i].email);
     }
-    return -1; // Retorna -1 se não encontrado
 }
 ```
 
