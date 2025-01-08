@@ -5,3 +5,5 @@
 </div>
 
 ![iconGitCenoura](https://github.com/user-attachments/assets/185642b5-f067-496f-9147-159f6711d72d) [Trabalho Prático 1 - Sistema de Gerenciamento de Biblioteca.pdf](https://github.com/user-attachments/files/18332723/Trabalho.Pratico.1.-.Sistema.de.Gerenciamento.de.Biblioteca.pdf)
+
+![iconGitCenoura](https://github.com/user-attachments/assets/185642b5-f067-496f-9147-159f6711d72d) [Trabalho Prático 2 - Sistema de Gerenciamento de Inventário de Produtos.pdf](https://github.com/user-attachments/files/18346072/Trabalho.Pratico.2.-.Sistema.de.Gerenciamento.de.Inventario.de.Produtos.pdf)
