@@ -75,3 +75,15 @@ int main() {
 2. **Tamanho da Função:** Mantenha as funções curtas e focadas em uma única tarefa. Isso melhora a legibilidade e facilita a manutenção.
 3. **Documentação:** Comente seu código e documente suas funções, explicando o que elas fazem, os parâmetros que recebem e os valores que retornam.
 4. **Evite Efeitos Colaterais:** Minimize efeitos colaterais, ou seja, evite que funções alterem variáveis globais ou parâmetros. Prefira retornar valores em vez de modificar diretamente.
+
+## Exercício para ser feito em sala:
+
+O programa deve solicitar ao usuário que insira uma quantidade específica de números, calcular a média desses números e, em seguida, imprimir quais números estão acima e quais estão abaixo da média.
+
+**Requisitos**
+- Defina as Funções:
+    - Função para calcular a média: float calcularMedia(int numeros[], int tamanho)
+    - Função para imprimir números acima da média: void imprimirAcimaDaMedia(int numeros[], int tamanho, float media)
+    - Função para imprimir números abaixo da média: void imprimirAbaixoDaMedia(int numeros[], int tamanho, float media)
+    - Procedimento Principal:
+- No main(), solicite ao usuário a quantidade de números a serem inseridos, leia os números e chame as funções apropriadas.
