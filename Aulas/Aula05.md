@@ -53,7 +53,6 @@ Os módulos devem ser fracamente acoplados, minimizando as dependências entre e
 Vamos criar um simples módulo de calculadora, que terá funções para soma e subtração.
 
 - **calculadora.h** (arquivo de cabeçalho)
-- **calculadora.c** (arquivo de implementação)
 - **main.c** (arquivo principal)
 
 ### Arquivo de Cabeçalho (`calculadora.h`)
