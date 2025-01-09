@@ -11,5 +11,4 @@ int main() {
     scanf("%d", &numero);
     calcularQuadrado(&numero);
     printf("O quadrado é: %d\n", numero);
-    
 }
