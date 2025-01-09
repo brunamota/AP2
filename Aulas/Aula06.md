@@ -31,9 +31,6 @@ Vamos criar uma função simples que calcula a soma de dois números.
 ```c
 #include <stdio.h>
 
-// Declaração da função
-int soma(int a, int b);
-
 int main() {
     int num1 = 5, num2 = 3;
     int resultado = soma(num1, num2); // Chamada da função
