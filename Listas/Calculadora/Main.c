@@ -36,7 +36,7 @@ int main(){
         if(b==0){
           printf("Divisão por zero nao existe");
         }else{
-          printf("Dvisao: %f\n", divisao(a,b));
+          printf("Dvisao: %f\n", divisao(5,6));
         }
       break;
       case 0:
