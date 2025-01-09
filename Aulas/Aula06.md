@@ -47,7 +47,7 @@ int soma(int a, int b) {
 
 ## Parâmetros e Valores de Retorno
 
--** Parâmetros:** As funções podem receber parâmetros, que são passados entre parênteses. Os parâmetros podem ser de diferentes tipos (int, float, char, etc.).
+- **Parâmetros:** As funções podem receber parâmetros, que são passados entre parênteses. Os parâmetros podem ser de diferentes tipos (int, float, char, etc.).
 - **Valores de Retorno:** As funções podem retornar um valor usando a instrução `return`. O tipo do valor retornado deve corresponder ao tipo especificado na declaração da função.
 
 ### Exemplo com Parâmetros e Valores de Retorno
