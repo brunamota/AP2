@@ -9,7 +9,7 @@
 
 ## Horário das Aulas
 
-Segunda a Sexta - 7h30 às 11h - LEC 03
+Segunda a Sexta - 7h30 às 11h - LEC 02
 
 ## Datas Importantes
 
