@@ -48,41 +48,13 @@ Os módulos devem ser fracamente acoplados, minimizando as dependências entre e
 
 ## Exemplo de Programação Modular em C
 
-### Estrutura de Arquivos
+### Exercício
 
-Vamos criar um simples módulo de calculadora, que terá funções para soma e subtração.
+Vamos criar um simples módulo de calculadora, que terá funções para soma, subtração, multiplicação e divisão.
 
 - **calculadora.h** (arquivo de cabeçalho)
 - **main.c** (arquivo principal)
 
-### Arquivo de Cabeçalho (`calculadora.h`)
+### Código
 
-```c
-#include "calculadora.h"
-
-// Implementação da função soma
-float soma(float a, float b) {
-    return a + b;
-}
-
-// Implementação da função subtracao
-float subtracao(float a, float b) {
-    return a - b;
-}
-```
-
-### Arquivo Principal (`main.c`)
-
-```c
-#include <stdio.h>
-#include "calculadora.h"
-
-int main() {
-    float a = 5.0, b = 3.0;
-
-    printf("Soma: %.2f\n", soma(a, b));
-    printf("Subtração: %.2f\n", subtracao(a, b));
-
-    return 0;
-}
-```
+[Calculadora](https://github.com/brunamota/AP2/tree/main/Listas/Calculadora)
