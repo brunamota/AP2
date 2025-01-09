@@ -19,8 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57feb64a-2432-457d-b215-90732dd8a921" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Listas/Calculadora/Calculadora.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Listas/Calculadora/Main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +69,22 @@
       <option name="presentableId" value="Default" />
       <updated>1736336136471</updated>
       <workItem from="1736336137638" duration="2439000" />
-      <workItem from="1736420043774" duration="998000" />
+      <workItem from="1736420043774" duration="2084000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
