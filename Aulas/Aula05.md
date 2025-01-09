@@ -48,9 +48,9 @@ Os módulos devem ser fracamente acoplados, minimizando as dependências entre e
 
 ## Exemplo de Programação Modular em C
 
-### Estrutura de Arquivos
+### Exercício
 
-Vamos criar um simples módulo de calculadora, que terá funções para soma e subtração.
+Vamos criar um simples módulo de calculadora, que terá funções para soma, subtração, multiplicação e divisão.
 
 - **calculadora.h** (arquivo de cabeçalho)
 - **main.c** (arquivo principal)
