@@ -1,4 +1,4 @@
-# Aula 15 - Leitura e Escrita de Arquivos em Diferentes Linguagens
+# Aula 15 - Leitura e Escrita de Arquivos
 
 ## Objetivos da Aula
 
