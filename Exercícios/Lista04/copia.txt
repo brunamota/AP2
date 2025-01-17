@@ -1,0 +1,5 @@
+Olá, mundo!
+Bem-vindo ao curso de ciência da computação.
+Este é um exemplo de escrita em arquivo.
+Adicionando mais uma linha.
+Esta é outra linha adicionada.
